@@ -44,7 +44,7 @@ const Header = () => {
               <span className="white-text name">John Roe</span>
             </div>
           </li>
-          <li><Link to="index"><i className="fa fa-home" />Home</Link>
+          <li><Link to="/"><i className="fa fa-home" />Home</Link>
               
              </li>
              <li>
