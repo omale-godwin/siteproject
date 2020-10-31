@@ -17,7 +17,7 @@ const Jumbo = () => {
       }}  >
           <div style={{position:"absolute", color:"white"}}>
           <div className="hero-content">
-            <br/><br/>
+            <br/><br/><br/>
                             <h1 style={{color:"white"}} className="hero-heading light-weight"> africa’s largest Project Repository HelpDesk </h1>
                             <br/><br/>
                         

@@ -1,3 +1,4 @@
+import { Link } from 'gatsby';
 import React from 'react'
 
 const Header = () => {
@@ -43,29 +44,16 @@ const Header = () => {
               <span className="white-text name">John Roe</span>
             </div>
           </li>
-          <li>
-            <div className="collapsible-header">
-              <i className="fa fa-home" />Home
-              <span>
-                <i className="fa fa-caret-right" />
-              </span>
-            </div>
-            <div className="collapsible-body">
-              <ul>
-                <li>
-                  <a href="index.html">Home v1</a>
-                </li>
-                <li>
-                  <a href="index2.html">Home v2</a>
-                </li>
-                <li>
-                  <a href="index3.html">Home v3</a>
-                </li>
-                <li>
-                  <a href="index4.html">Home v4</a>
-                </li>
-              </ul>
-            </div>
+          <li><Link to="index"><i className="fa fa-home" />Home</Link>
+              
+             </li>
+             <li>
+            <a href="contact.html">
+              <i className="fa fa-envelope-o" />Contact Us</a>
+          </li>
+             <li>
+           <Link to="blog"><i className="fa fa-rss-square" />Blog</Link>
+              
           </li>
           <li>
             <div className="collapsible-header">
@@ -77,136 +65,27 @@ const Header = () => {
             <div className="collapsible-body">
               <ul>
                 <li>
-                  <a href="categories.html">Categories</a>
+                  <a href="categories.html">computer science</a>
                 </li>
                 <li>
-                  <a href="categories-page.html">Categories page</a>
+                  <a href="categories-page.html">Micro Biology</a>
+                </li>
+                <li>
+                  <a href="categories.html">office technology</a>
+                </li>
+                <li>
+                  <a href="categories-page.html">mechnical Eng</a>
+                </li>
+                <li>
+                  <a href="categories.html">Elect Elect</a>
+                </li>
+                <li>
+                  <a href="categories-page.html">chemical Eng</a>
                 </li>
               </ul>
             </div>
           </li>
-          <li>
-            <div className="collapsible-header">
-              <i className="fa fa-play" />Video Single
-              <span>
-                <i className="fa fa-caret-right right" />
-              </span>
-            </div>
-            <div className="collapsible-body">
-              <ul>
-                <li>
-                  <a href="video-single.html">Video Single v1</a>
-                </li>
-                <li>
-                  <a href="video-single2.html">Video Single v2</a>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li>
-            <a href="channel.html">
-              <i className="fa fa-user" />Channel</a>
-          </li>
-          <li>
-            <div className="collapsible-header">
-              <i className="fa fa-rss-square" />Blog
-              <span>
-                <i className="fa fa-caret-right right" />
-              </span>
-            </div>
-            <div className="collapsible-body">
-              <ul>
-                <li>
-                  <a href="blog.html">Blog</a>
-                </li>
-                <li>
-                  <a href="blog-single.html">Blog Single</a>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li>
-            <div className="collapsible-header">
-              <i className="fa fa-support" />Components
-              <span>
-                <i className="fa fa-caret-right right" />
-              </span>
-            </div>
-            <div className="collapsible-body">
-              <ul>
-                <li>
-                  <a href="accordion.html">Accordion</a>
-                </li>
-                <li>
-                  <a href="button.html">Button</a>
-                </li>
-                <li>
-                  <a href="calendar.html">Calendar</a>
-                </li>
-                <li>
-                  <a href="card.html">Card</a>
-                </li>
-                <li>
-                  <a href="collapse.html">Collapse</a>
-                </li>
-                <li>
-                  <a href="list.html">List</a>
-                </li>
-                <li>
-                  <a href="pagination.html">Pagination</a>
-                </li>
-                <li>
-                  <a href="table.html">Table</a>
-                </li>
-                <li>
-                  <a href="tabs.html">Tabs</a>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li>
-            <div className="collapsible-header">
-              <i className="fa fa-file" />Pages
-              <span>
-                <i className="fa fa-caret-right right" />
-              </span>
-            </div>
-            <div className="collapsible-body">
-              <ul>
-                <li>
-                  <a href="about.html">About</a>
-                </li>
-                <li>
-                  <a href="contact.html">Contact</a>
-                </li>
-                <li>
-                  <a href="gallery.html">Gallery</a>
-                </li>
-                <li>
-                  <a href="pricing-table.html">Pricing Table</a>
-                </li>
-                <li>
-                  <a href="page-not-found.html">Page Not Found</a>
-                </li>
-                <li>
-                  <a href="settings.html">Settings</a>
-                </li>
-                <li>
-                  <a href="sign-up.html">Sign Up</a>
-                </li>
-                <li>
-                  <a href="sign-in.html">Sign In</a>
-                </li>
-                <li>
-                  <a href="team.html">Team</a>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li>
-            <a href="contact.html">
-              <i className="fa fa-envelope-o" />Contact Us</a>
-          </li>
+        
           <li>
             <a href="sign-in.html">
               <i className="fa fa-sign-in" />Sign In</a>

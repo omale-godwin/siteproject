@@ -10,7 +10,7 @@ import Services from '../components/services'
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <br /><br/><br/><br/>
+    <br /><br/><br/><br/><br/><br/>
    <Jumbo />
    <Services />
    
